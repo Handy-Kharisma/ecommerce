@@ -1,5 +1,5 @@
-import React from 'react'
-import styledComponents from 'styled-components'
+import React from 'react';
+import styledComponents from 'styled-components';
 
 const Container = styledComponents.div`
     height: 30px;
@@ -10,7 +10,7 @@ const Container = styledComponents.div`
     justify-content: center;
     font-size: 14px;
     font-weight: 500;
-`
+`;
 
 const Announcement = () => {
   return (
@@ -18,6 +18,6 @@ const Announcement = () => {
       Super Deal! Free Shipping on Orders Over $50
     </Container>
   )
-}
+};
 
-export default Announcement
+export default Announcement;
