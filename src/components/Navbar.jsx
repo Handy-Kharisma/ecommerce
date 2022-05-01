@@ -13,7 +13,6 @@ const Wrapper = styledComponents.div`
     justify-content: space-between;
 `;
 
-
 const Left = styledComponents.div`
     flex: 1;
     display: flex;
@@ -34,7 +33,6 @@ const Input = styledComponents.input`
     border: none;
 `;
 
-
 const Center = styledComponents.div`
     flex: 1;
     text-align: center;
@@ -42,7 +40,6 @@ const Center = styledComponents.div`
 const Logo = styledComponents.h1`
     font-weight: bold;
 `;
-
 
 const Right = styledComponents.div`
     flex: 1;
@@ -55,10 +52,6 @@ const MenuItem = styledComponents.div`
     cursor: pointer;
     margin-left: 25px;
 `;
-
-
-
-
 
 const Navbar = () => {
     return (
